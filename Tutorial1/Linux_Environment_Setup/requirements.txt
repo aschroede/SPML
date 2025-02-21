@@ -1,0 +1,10 @@
+matplotlib
+notebook
+numpy
+pandas
+pytorch-lightning
+scikit-learn
+torch
+torchattacks
+torchaudio
+torchvision
