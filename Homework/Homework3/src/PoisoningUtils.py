@@ -52,7 +52,7 @@ class BlendTriggerBackdoorData:
 
     hello_kitty_path = "./hello_kitty.jpg"
 
-    def __init__(self, data_loader, pdr, COMPUTATION_DEVICE, BACKDOOR_TARGET_CLASS, STD_DEV, MEAN, trigger, dataset):
+    def __init__(self, data_loader, pdr, COMPUTATION_DEVICE, BACKDOOR_TARGET_CLASS, trigger="hello-kitty", dataset="cifar10"):
         self.batches = []
         self.COMPUTATION_DEVICE = COMPUTATION_DEVICE
 
